@@ -6,6 +6,8 @@ def home(request):
     return render(request, 'home.html')
 
 
+
+
 def translate(request):
     original = request.GET['originaltext'].lower()
     translation = ''
